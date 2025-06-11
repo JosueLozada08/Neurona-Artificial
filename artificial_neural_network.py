@@ -102,6 +102,7 @@ Usar el modelo ANN para predecir si el cliente con la siguiente información dej
 
 Solución:
 """
+#solucion
 
 print(ann.predict(sc.transform([[1, 0, 0, 600, 1, 40, 3, 60000, 2, 1, 1, 50000]])) > 0.5)
 
